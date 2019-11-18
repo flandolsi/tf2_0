@@ -6,13 +6,9 @@ import matplotlib
 matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 
-
-
 # set level for logging
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 logging.basicConfig(level=logging.INFO)
-
-
 
 
 logging.info('Loading & Preprocessing Data')
